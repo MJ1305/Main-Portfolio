@@ -2,11 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 
+
 function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center text-center px-4 md:px-8 bg-gradient-to-b from-gray-200 via-white to-gray-300 dark:from-slate-900 dark:to-slate-950 transition-colors duration-500"
+      className="h-screen flex flex-col justify-center items-center text-center px-4 md:px-8 bg-gradient-to-b from-gray-200 via-white to-gray-300 dark:from-slate-900 dark:to-slate-950 transition-colors duration-500"
     >
       <motion.h1
         className="text-3xl md:text-5xl font-bold text-gray-800 dark:text-gray-100 mb-4"

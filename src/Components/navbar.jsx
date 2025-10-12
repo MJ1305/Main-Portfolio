@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { Link as ScrollLink } from "react-scroll";
 
+
 function Navbar() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   const [isOpen, setIsOpen] = useState(false);
@@ -20,9 +21,12 @@ function Navbar() {
   const toggleTheme = () => setTheme(theme === "dark" ? "light" : "dark");
 
   return (
-    <nav className="fixed w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur border-b border-gray-200 dark:border-slate-700 transition-colors duration-300">
+    <nav className="fixed w-full z-50 bg-white/80  dark:bg-slate-900/80 backdrop-blur border-b border-gray-200 dark:border-slate-700 transition-colors duration-300">
       <div className="container mx-auto flex justify-between items-center py-4 px-4 md:px-8">
         {/* Logo */}
+        {/* <div>
+          <img className="w-[11rem] h-[4rem] border" src={Logo} alt="" />
+        </div>         */}
         <h1 className="text-xl md:text-2xl font-bold text-blue-600 dark:text-blue-400">
           Mvjib.dev
         </h1>
