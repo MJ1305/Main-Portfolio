@@ -21,7 +21,6 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     setSending(true);
-
     emailjs
       .send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID, // EmailJS service ID
