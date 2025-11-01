@@ -15,11 +15,11 @@ const projects = [
     link: "https://zulfahwebclone.vercel.app/",
   },
   {
-    title: "My Portfolio",
-    desc: "A personal portfolio evolving as I build more projects and refine my skills.",
-    tech: "React · Tailwind · JS",
-    link: "https://mvjibportfolio.netlify.app/",
-  },
+    title: "Calender & Calculator",
+    desc: "A project in which i was able to integrate AI alongside critical thinking to achieve the projected outcome and refine my skills.",
+    tech: "React · Tailwind · JS · framer-motion · Screen-Responsiveness",
+    link: "https://calender-calculator.vercel.app/",
+  }
 ];
 
 function Projects() {
@@ -46,7 +46,7 @@ function Projects() {
               {proj.title}
             </h3>
 
-            <p className="text-gray-500 dark:text-gray-300 mt-2">{proj.desc}</p>
+            <p className="text-gray-500 dark:text-gray-300 mt-2 text-sm">{proj.desc}</p>
 
             <p className="text-sm text-gray-400 dark:text-gray-500 mt-2">
               {proj.tech}
@@ -56,7 +56,7 @@ function Projects() {
               href={proj.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500 dark:text-blue-300 text-sm mt-4 inline-block hover:underline"
+              className="text-blue-500 dark:text-blue-300 text-md mt-4 inline-block hover:underline"
             >
               Visit Project →
             </a>
