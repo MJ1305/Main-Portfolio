@@ -13,6 +13,13 @@ const skills = [
   "Bootstrap",
 ];
 
+//  {
+//     title: "Currency Converter — Real-time FX Converter",
+//     desc: "Currency converter with live exchange rates, supports currency swap, amount formatting, and caches rates for better performance.",
+//     tech: "React, JavaScript (ES6+), Tailwind CSS, Vite, exchangerate.host API",
+//     link: "https://calender-calculator.vercel.app/",
+//   }
+
 export default function About() {
   return (
     <section
