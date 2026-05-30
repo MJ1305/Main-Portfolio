@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Jodi Enterprise",
-    desc: "A conceptual e-commerce prototype focused on responsiveness and smooth UX.",
-    tech: "React · Tailwind · JS",
-    link: "https://jodiweb.netlify.app/",
-  },
-  {
-    title: "Zulfah Web",
-    desc: "A clone site built to master layout design and component structuring.",
+    title: "Zulfah Web (Cloned Website Practice)",
+    desc: "A clone site built to master layout design and component structuring.First ever example project worked on",
     tech: "React · Tailwind · JS",
     link: "https://zulfahwebclone.vercel.app/",
+  },
+  {
+    title: "Blaze Horizon Realty Limited",
+    desc: "currency converter with live exchange rates, supports currency swap, amount formatting, and caches rates for better performance.",
+    tech: "React, JavaScript (ES6+), Tailwind CSS, Vite, exchangerate.host API",
+    link: "https://the-blaze-horizon-realty-limited-pr.vercel.app/",
   },
   {
     title: "Calender & Calculator",
