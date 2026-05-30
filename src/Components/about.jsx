@@ -40,7 +40,7 @@ export default function About() {
           </h2>
 
           <p className="text-gray-600 dark:text-gray-300 text-sm md:text-base max-w-xl">
-            I’m a Front-End Developer currently interning at Sforger (Poland). I
+            I’m a Front-End Developer with a great aspiration for building and collaboration. I
             started my journey at{" "}
             <a
               className="underline text-blue-600 dark:text-blue-400"
