@@ -24,7 +24,7 @@ const projects = [
     title: "Currency Converter — Real-time FX Converter",
     desc: "currency converter with live exchange rates, supports currency swap, amount formatting, and caches rates for better performance.",
     tech: "React, JavaScript (ES6+), Tailwind CSS, Vite, exchangerate.host API",
-    link: "https://calender-calculator.vercel.app/",
+    link: "https://currency-converter-dusky-iota.vercel.app",
   }
 ];
 
